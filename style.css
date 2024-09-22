@@ -17,7 +17,15 @@ ul {
     padding: 0;
 }
 
-.img {
+p {
+    margin: 0;
+}
+
+p + p {
+    margin-top: 15px;
+}
+
+img {
     max-width: 100%;
 }
 
@@ -131,24 +139,24 @@ ul {
 
 /*- LIST CARDS */
 .food-list {
-
+    padding: 100px 0;
 }
 
 .food-list .container{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 40px 20px;
 }
 
 .food-list__card {
     width: 260px;
     text-align: center;
 
-    overflow: hidden; //*-наша картинка не выходит за границы обрезанных краев*/
+    overflow: hidden; /*-наша картинка не выходит за границы обрезанных краев*/
 
-    background: ;
     border-radius: 10px;
+    background: #312F30;
 }
 
 .food-list__img {
@@ -157,8 +165,14 @@ ul {
     object-fit: cover;
 }
 
+.food-list__text-wrapper {
+    padding: 30px 20px;
+}
+
 .food-list__title {
+    margin-bottom: 15px;
     font-size: 20px;
+    margin-top: 0;
 }
 
 .food-list__desc {
