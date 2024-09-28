@@ -389,6 +389,55 @@ img {
     font-size: 40px;
 }
 
+/*- Footer */
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 125px 0 140px 0;
+}
+
+.footer__contacts {
+    width: 140px;
+    height: 115px;
+}
+
+.footer__contacts .logo {
+    margin-bottom: 30px;
+}
+
+.footer__list {
+    width: 110px;
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 565px;
+}
+
+.footer__list-item {
+    font-size: 12px;
+    opacity: 0.8;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.footer__link {
+    font-size: 12px;
+    opacity: 0.8;
+    font-weight: 400;
+    margin-top: 10px; 
+}
+
+.footer__socials__link {
+    display: flex;
+    justify-content: space-between;
+    width: 90px;
+    margin-top: 15px;
+}
 
 
 
