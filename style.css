@@ -329,6 +329,45 @@ img {
     margin-left: 3px;
 }
 
+/*- FEEDBACK */
+
+.feedback .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 120px 150px 170px;
+}
+
+.feedback__text {
+    width: 370px;
+    max-height: 205px;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    text-align: center;
+}
+
+.feedback__comment {
+    opacity: 0.7;
+    font-size: 16px;
+    margin-bottom: 25px;
+    margin-top: 35px;
+}
+
+.feedback__name {
+    font-size: 24px;
+    margin: 0;
+    padding: 0px 70px;
+}
+
+.feedback__nationality {
+    font-size: 12px;
+    text-transform: uppercase;
+    opacity: 0.7;
+    margin: 0;
+}
 
 
 
